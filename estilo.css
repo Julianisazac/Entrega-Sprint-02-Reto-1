@@ -1,0 +1,72 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto condensed';
+}
+
+.fondo{
+    background-image: url("loki.png");
+    width: 100vw;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.contenedor1{
+    background-color: #202020;
+    width: 40vw;
+    height: 100vh;;
+    z-index: 1;
+    position: absolute;
+    top: 0;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:flex-start;
+    padding-left: 80px;
+    gap: 24px;
+}
+
+.contenedor1:after {
+    content: '';
+    position: absolute;
+    background: inherit;
+    right: -10%;
+    transform: skew(10deg);
+    width: 20%;
+    height: 100%;
+    top: 0;
+}
+
+.btn{
+    background: #1B90FC;
+    color: white;
+    padding: 15px 60px;
+    border-radius: 50px;
+    border: none;
+}
+
+.btn:hover{
+    background-color: white;
+    color: black;
+}
+
+.contenedor2{
+    width: 0;
+    position: absolute;
+    height: 0;
+    border: 0 solid transparent;
+    border-right-width: 0px ;
+    border-left-width: 1920px;
+    border-bottom: 100px solid rgb(244, 240, 240);
+    bottom: 0;
+    z-index: 1;
+}
+
+section{
+    position: relative;
+}
+
+
+
